@@ -1,0 +1,63 @@
+.welcome-content {
+    --background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0; /* Ensure padding doesn't affect centering */
+  }
+  
+  .welcome-container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-text {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .login-button {
+    --border-radius: 8px;
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --background: #fff;
+    --color: #333;
+    margin-bottom: 16px;
+  }
+  
+  .google-button {
+    --color: #db4437;
+    --background: #fff;
+  }
+  
+  .facebook-button {
+    --color: #4267B2;
+    --background: #fff;
+  }
+  
+  .guest-button {
+    --color: #34a853;
+    --background: #fff;
+  }
+  

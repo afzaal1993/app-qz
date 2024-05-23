@@ -1,0 +1,32 @@
+<ion-app>
+  <ion-content fullscreen class="ion-padding welcome-content">
+    <div class="welcome-container">
+      <img src="assets/logo.png" alt="QuizMaster Logo" class="logo" />
+      <h1 class="welcome-title">Welcome to QuizMaster</h1>
+      <p class="welcome-text">
+        Challenge your knowledge and compete with friends! Log in to track your
+        progress or play as a guest.
+      </p>
+      <ion-button
+        expand="block"
+        class="login-button google-button"
+        (click)="loginWithGoogle()"
+      >
+        <ion-icon slot="start" name="logo-google"></ion-icon>
+        Login with Google
+      </ion-button>
+      <ion-button
+        expand="block"
+        class="login-button facebook-button"
+        (click)="loginWithFacebook()"
+      >
+        <ion-icon slot="start" name="logo-facebook"></ion-icon>
+        Login with Facebook
+      </ion-button>
+      <ion-button expand="block" class="guest-button" (click)="playAsGuest()">
+        <ion-icon slot="start" name="person-outline"></ion-icon>
+        Play as Guest
+      </ion-button>
+    </div>
+  </ion-content>
+</ion-app>
